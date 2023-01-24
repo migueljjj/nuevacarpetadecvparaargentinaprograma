@@ -1,0 +1,30 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    margin:5px;
+    padding: 20px;
+    border: 5px;
+    ;
+}
+img{
+   width: fit-content;
+    
+}
+
+body{
+    background-color: darkolivegreen;
+}
+
+nav ul li{
+    font-size: larger;
+    text-align: center;
+    list-style-type: armenian;
+    list-style-position: initial;
+    text-transform: uppercase;
+}
+
+.footer{
+    text-align: center;
+    text-transform: lowercase;
+    list-style-position: initial;
+    line-height: ;
+}
