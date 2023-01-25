@@ -10,6 +10,9 @@ body{
     background-color: darkolivegreen;
 }
 
+
+
+
 nav ul li{
     font-size: larger;
     text-align: center;
@@ -17,6 +20,8 @@ nav ul li{
     list-style-position: initial;
     text-transform: uppercase;
 }
+
+
 
 .footer{
     text-align: center;
