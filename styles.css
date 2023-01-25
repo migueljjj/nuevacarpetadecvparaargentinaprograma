@@ -1,15 +1,17 @@
 *{
     font-family: 'Oswald', sans-serif;
-    margin:5px;
-    padding: 10px;
-    border: 10px;
+   
     ;
 }
 
 
 
 body{
-    background-color: darkolivegreen;
+    background-color: beige;
+    border top: 10px;
+    padding: 10px;
+    margin: 10px;
+    
 }
 
 
@@ -31,4 +33,3 @@ footer {
     list-style-position: initial;
     list-style-type: georgian;
     text-transform: uppercase;
-}
