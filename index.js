@@ -8,6 +8,11 @@ function datos de persona()
  return nombre + apellido
  
 
- getElementByid("demo").inner.HTML onclick(datos de la persona aqui)
+ document.getElementByid("demo").innerHTML onclick(datos de la persona aqui)
  console.log("en este click se ven los datos de la persona del cv")
  
+
+ function displayAge() {
+    document.getElementById("demo").innerHTML
+= displayAge ()="20/06/89"
+ }
