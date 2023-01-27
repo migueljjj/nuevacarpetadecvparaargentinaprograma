@@ -1,37 +1,18 @@
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
-
-
-
-function myFunction(name,job) {
-    document.getElementById("demo").innerHTML = "Welcome " + name + ", the " + job + ".";
-}
-
+alert("hola mundo")
 
 let nombre ="alicia"
 let apellido="davis"
 
-console.log("registro del nombre y apellido de la persona")
- 
+console.log("alicia")
 
 
+let edad=18
 
-function displayAge() {
-    document.getElementById("demo").innerHTML
-= displayAge ()="20/06/89"
- }
+if edad>=18
 
-let miboton = document.getElementById('el boton')
+return("mostrar edad es mayor o igual a 18")
 
+else edad<=18
 
-  const hour = new Date().getHours(); 
-let greeting;
-
-if (hour < 18) {
-  greeting = "Buen dia";
-} else {
-  greeting = "Buenas tardes";
-}
-
+return("mostrar edad es menor o igual a 18")
 
