@@ -1,14 +1,37 @@
-var nombre ="alicia"
-var apellido="davis"
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+
+
+
+function myFunction(name,job) {
+    document.getElementById("demo").innerHTML = "Welcome " + name + ", the " + job + ".";
+}
+
+
+let nombre ="alicia"
+let apellido="davis"
 
 console.log("registro del nombre y apellido de la persona")
  
 
- function displayAge() {
+
+
+function displayAge() {
     document.getElementById("demo").innerHTML
 = displayAge ()="20/06/89"
  }
 
 let miboton = document.getElementById('el boton')
 
-<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+
+  const hour = new Date().getHours(); 
+let greeting;
+
+if (hour < 18) {
+  greeting = "Buen dia";
+} else {
+  greeting = "Buenas tardes";
+}
+
+
