@@ -10,15 +10,10 @@ console.log("alicia")
 /*condicional if ,else*/
 let edad=18
 
-if edad>=18
+if (edad>=18){
+console.log("el numero es mayor o igual a 18")
+}
+else{
+console.log("el numero es menor o igual a 18")
+}
 
-return("mostrar edad es mayor o igual a 18")
-
-else edad<=18
-
-return("mostrar edad es menor o igual a 18")
-
-/*array*/
-let ventas("mesas","sillas")
-
-console.log("ventas.length")
