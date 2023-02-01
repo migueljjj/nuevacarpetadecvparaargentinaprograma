@@ -17,3 +17,14 @@ else{
 console.log("el numero es menor o igual a 18")
 }
 
+let nombre =('alicia','davis');
+
+let info ='gerente de ventas';
+
+let para =document.querySelector('p');
+
+for (let i=0 ; i<nombres.length; i++){
+    info += nombres {i} + '.';
+}
+
+para.textContent=info;
