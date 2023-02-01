@@ -42,3 +42,14 @@ while (i<nombres.length){
 }
 
 
+let i=0
+
+do{
+    if(i===nombres.length-1){
+        info+='and'+nombres{i}+'.';
+   }else{
+    info+=nombres{i+'.';
+   }
+}
+i++;
+}while (i<nombres.length);
