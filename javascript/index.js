@@ -28,3 +28,17 @@ for (let i=0 ; i<nombres.length; i++){
 }
 
 para.textContent=info;
+
+let i=0
+
+while (i<nombres.length){
+    if(i===nombres.length-1){
+        info+='and' + nombres{1} + '.';
+        }else{
+            info+=nombres{1+'.';
+        }
+        i++;
+    }
+}
+
+
