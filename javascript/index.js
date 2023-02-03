@@ -2,7 +2,7 @@
 alert("hola mundo")
 
 /*variables*/
-let nombre ="alicia"
+let nombres ="alicia"
 let apellido="davis"
 
 console.log("alicia")
@@ -17,18 +17,8 @@ else{
 console.log("el numero es menor o igual a 18")
 }
 
-let nombre =('alicia','davis');
 
-let info ='gerente de ventas';
-
-let para =document.querySelector('p');
-
-for (let i=0 ; i<nombres.length; i++){
-    info += nombres {i} + '.';
-}
-
-para.textContent=info;
-
+/*bucles while*/
 let i=0
 
 while (i<nombres.length){
@@ -41,7 +31,7 @@ while (i<nombres.length){
     }
 }
 
-
+/*bucles do while*/
 let i=0
 
 do{
@@ -49,7 +39,19 @@ do{
         info+='and'+nombres{i}+'.';
    }else{
     info+=nombres{i+'.';
-   }
-}
 i++;
 }while (i<nombres.length);
+
+
+const output =document.querySelector('#output');
+function handleclick(e){
+    output.textcontent += you clicked on a $(e.currenttarget.tagname)
+
+}
+
+const container =document.querySelector('#container');
+const button =document.querySelector('button');
+
+document.body.addEventListener('click' m handleclick , {capture:true});
+container.addEventListener('click,handleclick'{capture:true});
+button.addEventListener('click',handleclick);
