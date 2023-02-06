@@ -7,6 +7,26 @@ let apellido="davis"
 
 console.log("alicia")
 
+/*funciones*/
+function checkage(age){
+    if (age>18){
+
+    }else{
+        return confirm('¿tiene permiso de conducir?',18);
+     }
+}
+
+
+let age=prompt('¿que edad ella tiene?',18);
+
+if( checkage(age)) {
+
+    alert('acceso otorgado') ;
+
+}else{
+    alert('acceso denegado');
+    
+}
 /*condicional if ,else*/
 let edad=18
 
