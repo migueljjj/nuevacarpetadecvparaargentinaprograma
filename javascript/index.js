@@ -19,16 +19,13 @@ console.log("el numero es menor o igual a 18")
 
 
 /*bucles while*/
-let i=0
+const cars = {"BMW" ,"Volvo","Saab","Ford"};
+let i = 0;
+let text =""
 
-while (i<nombres.length){
-    if(i===nombres.length-1){
-        info+='and' + nombres{1} + '.';
-        }else{
-            info+=nombres{1+'.';
-        }
-        i++;
-    }
+while (cars{i}){
+    text += cars{i};
+    i++;
 }
 
 /*bucles do while*/
@@ -85,9 +82,8 @@ const jsondata = {
          5th ave
     }
     
-    
 }
-
 const jsonString = json.stringify(jsonData)
 const jsonDisplay = Document.querySelector("#json")
 jsondisplay.innerHTML = jsonString
+
