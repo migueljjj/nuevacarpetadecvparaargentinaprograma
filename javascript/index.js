@@ -6,8 +6,20 @@ let nombres ="alicia"
 let apellido="davis"
 
 console.log("alicia")
+/*funciones de comentarios sobre numeros primos*/
 
-/*funciones*/
+function showPrimes(n) {
+    nextPrime: for (let i = 2; i < n; i++) {
+  
+      for (let j = 2; j < i; j++) {
+        if (i % j == 0) continue nextPrime;
+      }
+  
+      alert( i ); // un número primo
+    }
+  }
+
+/*funciones de devolviendo un valor*/
 function checkage(age){
     if (age>18){
 
@@ -25,7 +37,7 @@ if( checkage(age)) {
 
 }else{
     alert('acceso denegado');
-    
+
 }
 /*condicional if ,else*/
 let edad=18
