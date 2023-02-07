@@ -51,12 +51,12 @@ console.log("el numero es menor o igual a 18")
 
 
 /*bucles while*/
-const cars = {"BMW" ,"Volvo","Saab","Ford"};
+const ropa = {"vestido" ,"cartera","zapatos","lentes de sol"};
 let i = 0;
 let text =""
 
-while (cars{i}){
-    text += cars{i};
+while (ropa{i}){
+    text += ropa{i};
     i++;
 }
 
@@ -67,7 +67,7 @@ do{
     if(i===nombres.length-1){
         info+='and'+nombres{i}+'.';
    }else{
-    info+=nombres{i+'.';
+    info+=nombres{i}+'.';
 i++;
 }while (i<nombres.length);
 
