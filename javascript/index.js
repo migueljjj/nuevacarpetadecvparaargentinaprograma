@@ -72,19 +72,6 @@ i++;
 }while (i<nombres.length);
 
 
-/*captura de eventos*/
-const output =document.querySelector('#output');
-function handleclick(e){
-    output.textcontent += you clicked on a $(e.currenttarget.tagname)
-
-}
-
-const container =document.querySelector('#container');
-const button =document.querySelector('button');
-
-document.body.addEventListener('click' m handleclick , {capture:true});
-container.addEventListener('click,handleclick'{capture:true});
-button.addEventListener('click',handleclick);
 
 
 /*datos json del navegador al cliente ,ejemplo*/
