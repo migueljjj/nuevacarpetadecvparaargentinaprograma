@@ -70,26 +70,8 @@ footer {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
-  It might seem odd that we have two sets of identical classes, but it gives us the opportunity in HTML, to decide what will happen with the columns at each breakpoint:
   
-  HTML Example
-  For desktop:
-  
-  The first and the third section will both span 3 columns each. The middle section will span 6 columns.
-  
-  For tablets:
-  
-  The first section will span 3 columns, the second will span 9, and the third section will be displayed below the first two sections, and it will span 12 columns:
-  
-  <div class="row">
-    <div class="col-3 col-s-3">...</div>
-    <div class="col-6 col-s-9">...</div>
-    <div class="col-3 col-s-12">...</div>
-  </div>
-  Typical Device Breakpoints
-  There are tons of screens and devices with different heights and widths, so it is hard to create an exact breakpoint for each device. To keep things simple you could target five groups:
-  
-  Example
+ 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {...}
   

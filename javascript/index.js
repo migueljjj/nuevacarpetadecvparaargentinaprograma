@@ -5,7 +5,7 @@ alert("hola mundo")
 let nombres ="alicia"
 let apellido="davis"
 
-console.log("alicia")
+console.log(nombre ' + ' apellido)
 /*funciones de comentarios sobre numeros primos*/
 
 function showPrimes(n) {
